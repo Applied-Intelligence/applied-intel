@@ -1,16 +1,16 @@
 body {
     /*display: flex;*/
-    background-color:white;
+    background-color:rgb(104, 198, 219);
     justify-content: center;
 }
 
 h1 {
-    font-family: Arial, sans-serif;
-    color: darkslategray;
+    font-family:  'Tahoma', sans-serif;
+    color:rgba(31, 17, 121, 0.678);
     text-align: center;
 }
 h3 {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     color: darkslategray;
     text-align: center;
 }
@@ -21,7 +21,7 @@ h3 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: darkorange;
+    background-color:rgba(31, 17, 121, 0.678);
   
     animation: bounce 0.5s;
     animation-direction: alternate;
@@ -31,7 +31,7 @@ h3 {
   
   @keyframes bounce {
     from { transform: translate3d(650px, 0, 0);     }
-    to   { transform: translate3d(650px, 200px, 0); }
+    to   { transform: translate3d(650px, 200px, 600px); }
   }
   
   /* Prefix Support */
