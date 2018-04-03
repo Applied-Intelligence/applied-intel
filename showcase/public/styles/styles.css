@@ -36,10 +36,15 @@ h3 {
   
   /* Prefix Support */
   ball {
+    animation-name: bounce;
     -webkit-animation-name: bounce;
+    animation-duration: 0.5s;
     -webkit-animation-duration: 0.5s;
+    animation-direction: alternate;
     -webkit-animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5,0.05,1,.5);
     -webkit-animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+    animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
   }
   
