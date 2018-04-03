@@ -5,12 +5,12 @@ body {
 }
 
 h1 {
-    font-family:  'Tahoma', sans-serif;
-    color:rgba(20, 11, 75, 0.65);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(20, 11, 75, 0.781);
     text-align: center;
 }
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkslategray;
     text-align: center;
 }
@@ -18,10 +18,11 @@ h3 {
 
   
   .ball {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background-color:rgba(20, 11, 75, 0.65);
+    background-color:rgba(20, 11, 75,0.781);
+    z-index: 50;
   
     animation: bounce 0.5s;
     animation-direction: alternate;
@@ -31,7 +32,7 @@ h3 {
   
   @keyframes bounce {
     from { transform: translate3d(650px, 0, 0);     }
-    to   { transform: translate3d(650px, 200px, 600px); }
+    to   { transform: translate3d(650px, 290px,0); }
   }
   
   /* Prefix Support */
