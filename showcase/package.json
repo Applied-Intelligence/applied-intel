@@ -1,0 +1,17 @@
+{
+  "name": "showcase",
+  "version": "1.0.0",
+  "description": "This is a portal for showcasing differenct AI solutions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Kadam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "nodemon": "^1.17.3"
+  }
+}
