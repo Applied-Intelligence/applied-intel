@@ -1,12 +1,12 @@
 body {
     /*display: flex;*/
-    background-color:rgb(104, 198, 219);
+    background-color:rgba(9, 200, 243, 0.856);
     justify-content: center;
 }
 
 h1 {
     font-family:  'Tahoma', sans-serif;
-    color:rgba(31, 17, 121, 0.500);
+    color:rgba(20, 11, 75, 0.65);
     text-align: center;
 }
 h3 {
@@ -21,7 +21,7 @@ h3 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:rgba(31, 17, 121, 0.500);
+    background-color:rgba(20, 11, 75, 0.65);
   
     animation: bounce 0.5s;
     animation-direction: alternate;
