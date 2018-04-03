@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-family:  'Tahoma', sans-serif;
-    color:rgba(31, 17, 121, 0.678);
+    color:rgba(31, 17, 121, 0.500);
     text-align: center;
 }
 h3 {
@@ -21,7 +21,7 @@ h3 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:rgba(31, 17, 121, 0.678);
+    background-color:rgba(31, 17, 121, 0.500);
   
     animation: bounce 0.5s;
     animation-direction: alternate;
