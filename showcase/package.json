@@ -12,6 +12,7 @@
     "express": "^4.16.3",
     "body-parser": "^1.18.2",
     "ejs": "^2.5.8",
-    "nodemon": "^1.17.3"
+    "nodemon": "^1.17.3",
+    "python-shell": "^9.5.0"
   }
 }
