@@ -9,10 +9,12 @@
   "author": "Rahul Kadam",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
     "body-parser": "^1.18.2",
+    "botbuilder": "^3.14.1",
     "ejs": "^2.5.8",
+    "express": "^4.16.3",
     "nodemon": "^1.17.3",
-    "python-shell": "^9.5.0"
+    "python-shell": "^9.5.0",
+    "restify": "^7.1.0"
   }
 }
