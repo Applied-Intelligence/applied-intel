@@ -14,9 +14,30 @@ h3 {
     color: darkslategray;
     text-align: center;
 }
+#container {
+  width:100%;
+  clear:both;
+  position: absolute;
+  }
+  #box {
+    margin: auto;
+    position:relative;
+    width:700px;
+}
+input{
+  width: 700px;
+  height: 100px;
+  -webkit-appearance:none;
+  font-size: 86px;
+  color:rgba(20, 11, 75,0.781);
+  background: transparent;
+  border: none;
+  padding: 0px;
+}
 
-
-  
+input.middle:focus{
+  outline:transparent;
+}
   .ball {
     width: 60px;
     height: 60px;
